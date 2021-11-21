@@ -1,0 +1,86 @@
+.Nome {
+    position: relative;
+    margin-top: 1px;
+    margin-bottom: 7px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.End {
+    margin-top: 10px;
+    margin-bottom: 7px;
+    margin-left: 0px;
+    margin-right: 35px;
+    position: relative;
+}
+.Email{
+    margin-top: 10px;
+    margin-bottom: 7px;
+    margin-left: 0px;
+    margin-right: 15px;
+}
+.Cidade{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+    margin-right: 12px;
+}
+.Estados{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.Sexo{
+    position: relative;
+    margin-top: 25px;
+}
+.Filme{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.Filme > .Acao{
+    position: relative;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.Filme  .Aventura{
+    position: relative;
+    margin-top: 0px;
+    margin-left: 25px;
+}
+.Filme .Comedia{
+    position: relative;
+    margin-left: 17px;
+}
+.Filme .Suspense{
+    position: relative;
+    margin-left: 25px;
+}
+.Filme .Drama{
+    position: relative;
+    margin-right: 1px;
+}
+.Filme .Romance{
+    position: relative;
+    margin-left: 16px;
+}
+.Filme .Terror{
+    position: relative;
+    margin-left: 7px;
+}
+.Usuario{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    resize: both;
+    overflow: hidden;
+}
+.Senha{
+    position: relative;
+    margin-top: 5px;
+    margin-left: 9px;
+    margin-bottom: 30px;
+    
+}
