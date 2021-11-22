@@ -11,26 +11,30 @@
     <div class="container">
         <h1>Cadastro de Usuário</h1>
 
-        <form action="<./form>">
+        <form action="./index.html">
             <div class="Nome">
             <label for="Nome">Nome:</label>
-            <input type="text" id="Nome">
+            <input type="text" id="Nome" class="Nome1">
             </div>
+
             <div class="End">
             <label for="Endereço">Endereço:</label>
-            <input type="text" id="Endereço">
+            <input type="text" id="Endereço" class="Endereço1">
             </div>
+
             <div class="Email">
             <label for="Email">E-mail:</label>
-            <input type="text" id="E-mail">
+            <input type="text" id="E-mail" class="E-mail">
             </div>
+
             <div class="Cidade">
             <label for="Cidade">Cidade:</label>
-            <input type="text" id="Cidade">
+            <input type="text" id="Cidade" class="Cidade1">
             </div>
+
             <div class="Estados">
             <label for="Estados">Estado:</label>
-            <select name="Estados">
+            <select name="Estados" class="Estados1">
                 <option value="AC">Acre</option>
                 <option value="AL">Alagoas</option>
                 <option value="AP">Amapá</option>
@@ -63,18 +67,21 @@
 
             <div class="Sexo">
             <label for="Sexo">Sexo:</label>
-            <input type="radio" value="Masculino" name="Masculino" id ="Masc">
+            <input type="radio" value="Masculino" name="Masculino" id ="Masc" class="Masc">
             <label for="Masculino">Masculino</label>
-            <input type="radio" value="Masculino" name="Masculino" id="Fem">
+
+            <input type="radio" value="Feminio" name="Feminio" id="Fem" class="Feminino">
             <label for="Feminio">Feminino</label>
-            <input type="radio" name="Outro" id="Outro">
+
+            <input type="radio" name="Outro" id="Outro" class="Outro">
             <label for="Outro">Outro</label>
             </div>
+
             <div class="Filme">
             Escolha os filme que você mais gosta
             <br>
             <div class="Acao">
-            <input type="checkbox" name="Acao" id="Acao">
+            <input type="checkbox" name="Acao" id="Acao" class="Acao">
             <label for="Ação">Ação</label>
             </div>
 
@@ -82,10 +89,12 @@
             <input type="checkbox" name="Aventura" id="Aventura">
             <label for="Aventura">Aventura</label>
             </div>
+
             <div class="Comedia">
             <input type="checkbox" name="Comedia" id="Comedia">
             <label for="Comedia">Comédia</label>
             </div>
+
             <div class="Suspense">
             <input type="checkbox" name="Suspense" id="Suspense">
             <label for="Suspense">Suspense</label>
@@ -94,28 +103,33 @@
             <input type="checkbox" name="Drama" id="Drama">
             <label for="Drama">Drama</label>
             </div>
+
             <div class="Romance">
             <input type="checkbox" name="Romance" id="Romance">
             <label for="Romance">Romance</label>
             </div>
+
             <div class="Terror">
             <input type="checkbox" name="Terror" id="Terror">
             <label for="Terror">Terror</label>
             </div>
-            </div>
-            <div class =Usuario>            
-            <label for="Usuario">Usario</label>
-            <input type="text" id="Usuario">
-            </div>
-            <div class="Senha">
-            <label for="Senha">Senha</label>
-            <input type="password" id="Senha">
+
             </div>
 
-            <input type="button" name="Cancelar" id="Cancelar" value="Cancelar">
-            <input type="button" name="Limpar" id="Limpar" value="Limpar">
+            <div class =Usuario>            
+            <label for="Usuario">Usario</label>
+            <input type="text" id="Usuario" class="Usuario1">
+            </div>
+
+            <div class="Senha">
+            <label for="Senha">Senha</label>
+            <input type="password" id="Senha" class="Senha1">
+            </div>
+
+            <input type="reset" name="Cancelar" id="Cancelar" value="Cancelar" class="Reset">
+            <input type="reset" name="Limpar" id="Limpar" value="Limpar" class="Limpar">
             
-            <input type="submit" name="Cadastro" id="Cadastro" value="Cadastrar">
+            <input type="submit" name="Cadastro" id="Cadastro" value="Cadastrar" class="Cadastro">
             <br>
             </select>
         </form>
