@@ -1,0 +1,64 @@
+.Principal{
+    height: 100vh;
+    width: 100vw;   
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Diretor{
+    margin-bottom: 10px;
+
+
+}
+.Img{
+    width: 310px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.Ator{
+    position: relative;
+    margin-bottom: 10px;
+}
+.Genero{
+    position: relative;
+    margin-bottom: 10px;
+
+}
+.Clasi{
+    position: relative;
+    margin-bottom: 10px;
+}
+.Tempo{
+    position: relative;
+    margin-bottom: 10px;
+
+}
+.Img{
+    position: relative;
+
+}
+.Sinopse{
+    position: relative;
+    width: 500px;
+
+}
+.footer {
+    text-align: center;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    background-color: #04AA6D;
+    opacity: 50%;
+}
+.Filme{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.Titu{
+    position: relative;
+    text-align: center;
+}
+#Img1{
+    width: 300px;
+}

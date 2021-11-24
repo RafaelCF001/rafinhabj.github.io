@@ -1,0 +1,17 @@
+.Principal{
+    font-family: 'Roboto Mono',monospace;
+    text-align:center;
+    background-image: url('https://th.bing.com/th/id/R.c8f186b313ca63a791d640f8fac722dd?rik=nm9ZXXcuM89SfQ&pid=ImgRaw&r=0');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    font-size: 20px;
+}
+.footer {
+    position:fixed;
+    bottom:0;
+    width:100%;
+    background-color: #04AA6D;
+    opacity: 50%;
+}
